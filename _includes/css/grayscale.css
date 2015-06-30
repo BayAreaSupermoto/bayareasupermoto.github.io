@@ -151,10 +151,6 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
-    font-size: 40px;
-}
-
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
@@ -259,6 +255,7 @@ h1{
   background: url(/img/basm-logo.png) no-repeat center center scroll;
   text-indent: -9999px;                 /* sends the text off-screen */
   white-space: nowrap;
+  font-size: 100px;
 }
 .stickers-section {
     width: 100%;
