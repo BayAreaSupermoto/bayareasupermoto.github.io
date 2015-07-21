@@ -263,7 +263,6 @@ h1{
     color: #fff;
     background: url(/img/stickerbomb-grey.jpg) repeat center center;
     background-color: {{ site.color.primary-dark }};
-    margin-bottom: 100px;
 }
 
 #map {
