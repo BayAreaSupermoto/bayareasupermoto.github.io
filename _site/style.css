@@ -37,7 +37,7 @@ h6 {
 
 p {
     margin: 0 0 15px;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
@@ -278,11 +278,21 @@ h1{
   font-size: 100px;
 }
 .stickers-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/stickerbomb-grey.jpg) repeat center center;
-    background-color: #000000;
+  min-height: 70%;
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+  background: url(/img/stickers.jpg);
+  background-size: cover;
+  background-color: #000000;
+}
+
+.stickers-section .tint{
+  border-radius: 10px;
+  background: rgba(0,0,0,0.6);
+  padding: 15px 0;
+  width: 75%;
+  margin: 0 auto;
 }
 
 #map {
